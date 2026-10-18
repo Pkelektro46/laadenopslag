@@ -1,6 +1,6 @@
 // Laad & Opslag — aanvraagformulier
 // Vervang XXXXXXXX door je eigen Formspree-code (formspree.io → New form)
-var FORMSPREE_URL = "https://formspree.io/f/XXXXXXXX";
+var FORMSPREE_URL = "https://formspree.io/f/xrpedyel";
 
 document.querySelectorAll("form.leadform").forEach(function (form) {
   form.addEventListener("submit", function (e) {
