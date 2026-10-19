@@ -106,10 +106,18 @@ tr:last-child td{border-bottom:0}
 .steps .ico svg{width:26px;height:26px}
 .steps b{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 .trustbar+section{padding-top:32px}
-.why{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.why{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 .why>div{min-width:0;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:20px}
 .why h3{font-size:1.1rem;margin-bottom:6px}
 .why p{color:var(--muted);margin:0}
+
+.contactcard{display:flex;gap:16px;align-items:center;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:20px;margin:24px 0}
+.contactcard .ico{flex:none;display:grid;place-items:center;width:48px;height:48px;border-radius:12px;background:color-mix(in srgb,var(--accent) 18%,var(--surface))}
+.contactcard .ico svg{width:24px;height:24px}
+.contactcard>div{min-width:0}
+.contactcard .label{font-size:.85rem;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.contactcard .mail{font-family:var(--display);font-weight:800;font-size:clamp(1.1rem,4vw,1.4rem);text-decoration:none;overflow-wrap:anywhere}
+.contactcard .mail:hover{text-decoration:underline}
 
 footer{padding-block:28px;color:var(--muted);font-size:.88rem;border-top:1px solid var(--line)}
 footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
